@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolrServer", "SolrServer", "{75EDD475-5D28-4B4E-829A-5CF77A309850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrConfiguration.Lib", "SolrServer\SolrConfiguration.Lib\SolrConfiguration.Lib.csproj", "{7CA57615-CCAC-4A18-8A4D-31EB7A63ABCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrConfiguration.ConfigurationCopy.UI.Windows", "SolrServer\SolrConfiguration.ConfigurationCopy.UI.Windows\SolrConfiguration.ConfigurationCopy.UI.Windows.csproj", "{9B192B55-F641-4BC0-BB66-6ABA14E4E239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrConfiguration.ConfigurationCopy.UI.Web", "SolrServer\SolrConfiguration.ConfigurationCopy.UI.Web\SolrConfiguration.ConfigurationCopy.UI.Web.csproj", "{AB8F98E5-DDA6-41CE-B8BE-F78B90C6869A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrConfiguration.CoreBuilder.UI.Windows", "SolrServer\SolrConfiguration.CoreBuilder.UI.Windows\SolrConfiguration.CoreBuilder.UI.Windows.csproj", "{6933942B-3A54-48E6-822E-DF712A1BC6FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolrConfiguration.CoreBuilder.UI.Web", "SolrServer\SolrConfiguration.CoreBuilder.UI.Web\SolrConfiguration.CoreBuilder.UI.Web.csproj", "{61B4193B-FD58-4408-80A0-3560BA47791B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CA57615-CCAC-4A18-8A4D-31EB7A63ABCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA57615-CCAC-4A18-8A4D-31EB7A63ABCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA57615-CCAC-4A18-8A4D-31EB7A63ABCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA57615-CCAC-4A18-8A4D-31EB7A63ABCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B192B55-F641-4BC0-BB66-6ABA14E4E239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B192B55-F641-4BC0-BB66-6ABA14E4E239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B192B55-F641-4BC0-BB66-6ABA14E4E239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B192B55-F641-4BC0-BB66-6ABA14E4E239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8F98E5-DDA6-41CE-B8BE-F78B90C6869A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8F98E5-DDA6-41CE-B8BE-F78B90C6869A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8F98E5-DDA6-41CE-B8BE-F78B90C6869A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8F98E5-DDA6-41CE-B8BE-F78B90C6869A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6933942B-3A54-48E6-822E-DF712A1BC6FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6933942B-3A54-48E6-822E-DF712A1BC6FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6933942B-3A54-48E6-822E-DF712A1BC6FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6933942B-3A54-48E6-822E-DF712A1BC6FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B4193B-FD58-4408-80A0-3560BA47791B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B4193B-FD58-4408-80A0-3560BA47791B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B4193B-FD58-4408-80A0-3560BA47791B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B4193B-FD58-4408-80A0-3560BA47791B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7CA57615-CCAC-4A18-8A4D-31EB7A63ABCA} = {75EDD475-5D28-4B4E-829A-5CF77A309850}
+		{9B192B55-F641-4BC0-BB66-6ABA14E4E239} = {75EDD475-5D28-4B4E-829A-5CF77A309850}
+		{AB8F98E5-DDA6-41CE-B8BE-F78B90C6869A} = {75EDD475-5D28-4B4E-829A-5CF77A309850}
+		{6933942B-3A54-48E6-822E-DF712A1BC6FA} = {75EDD475-5D28-4B4E-829A-5CF77A309850}
+		{61B4193B-FD58-4408-80A0-3560BA47791B} = {75EDD475-5D28-4B4E-829A-5CF77A309850}
+	EndGlobalSection
+EndGlobal
